@@ -1,8 +1,4 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 // eslint-disable-next-line
 import Project1 from "./pages/projects/Project1";
@@ -27,22 +23,10 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route
-              path="/projects/portfolio"
-              element={<Project1 />}
-            />
-            <Route
-              path="/projects/hdfc-app"
-              element={<Project2 />}
-            />
-            <Route
-              path="/projects/gallery"
-              element={<Project3 />}
-            />
-            <Route
-              path="/projects/crave-app"
-              element={<Project4 />}
-            />
+            <Route path="/projects/portfolio" element={<Project1 />} />
+            <Route path="/projects/hdfc-app" element={<Project2 />} />
+            <Route path="/projects/gallery" element={<Project3 />} />
+            <Route path="/projects/crave-app" element={<Project4 />} />
           </Routes>
         </main>
       </div>
