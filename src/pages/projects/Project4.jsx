@@ -32,7 +32,7 @@ import Group33887 from "../../assets/images/Group 33887.png";
 import Group34066 from "../../assets/images/Group 34066.png";
 import Group33888 from "../../assets/images/Group 33888.png";
 import BookingScreen from "../../assets/images/Booking Screen.png";
-import ChatFoodGuide from "../../assets/images/Chat Food Guide.png";
+import ChatFoodGuide from "../../assets/images/Chat food Guide.png";
 import HomeScreenDefault from "../../assets/images/Home Screen Default.png";
 import LaVerona from "../../assets/images/La Verona.png";
 import ProfileScreen from "../../assets/images/Profile Screen.png";
