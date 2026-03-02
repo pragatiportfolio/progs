@@ -4,26 +4,6 @@ import mockup1 from "../../assets/images/mockup1.png";
 import mockup2 from "../../assets/images/mockup2.png";
 import mockup3 from "../../assets/images/mockup3.png";
 import mockup4 from "../../assets/images/mockup4.png";
-import review1 from "../../assets/images/review1.png";
-import review2 from "../../assets/images/review2.png";
-import review3 from "../../assets/images/review3.png";
-import userflow from "../../assets/images/user-flow.png";
-import userflowmobile from "../../assets/images/user-flow.png";
-import card1 from "../../assets/images/Card1.png";
-import card2 from "../../assets/images/Card2.png";
-import arrow from "../../assets/images/arrow.svg";
-import footerimage from "../../assets/images/footer-p2.png";
-import screenbefore1 from "../../assets/images/sb1.png";
-import screenbefore2 from "../../assets/images/sb2.png";
-import screenbefore3 from "../../assets/images/sb3.png";
-import screenbefore4 from "../../assets/images/sb4.png";
-import screenbefore5 from "../../assets/images/sb5.png";
-import screenafter1 from "../../assets/images/sa1.png";
-import screenafter2 from "../../assets/images/sa2.png";
-import screenafter3 from "../../assets/images/sa3.png";
-import screenafter4 from "../../assets/images/sa4.png";
-import screenafter5 from "../../assets/images/sa5.png";
-import hdfc from "../../assets/images/hdfc-logo.png";
 import polaroidArjun from "../../assets/images/Polaroid-Arjun.png";
 import polaroidRhea from "../../assets/images/Polaroid-Rhea.png";
 import Group33844 from "../../assets/images/Group 33844.png";
@@ -39,6 +19,7 @@ import ProfileScreen from "../../assets/images/Profile Screen.png";
 import RahulBhatt from "../../assets/images/Rahul Bhatt.png";
 import RatingScreen from "../../assets/images/Rating Screen.png";
 import WelcomeScreen from "../../assets/images/Welcome Screen.png";
+import EndPhone from "../../assets/images/end_phone.png";
 const Project4 = () => {
   return (
     <div className="bg-white font-inter">
@@ -192,8 +173,10 @@ const Project4 = () => {
       >
         <div className="flex flex-col gap-8">
           <div className="flex flex-col gap-3">
-            <p className="text-[#FF6B35] text-2xl">Problem Statement</p>
-            <p>
+            <p className="text-[#FF6B35] text-2xl font-semibold">
+              Problem Statement
+            </p>
+            <p className="text-xl">
               Current food apps are built to satisfy hunger, not curiosity or
               the mood. They lack a human element, offering endless lists,
               ratings, and filters but no way to properly connect with real
@@ -203,8 +186,8 @@ const Project4 = () => {
             </p>
           </div>
           <div className="flex flex-col gap-3">
-            <p className="text-[#FF6B35] text-2xl">Goal</p>
-            <p>
+            <p className="text-[#FF6B35] text-2xl font-semibold">Goal</p>
+            <p className="text-xl">
               To design a human-first food concierge app that helps users
               connect with real food enthusiasts, enabling meaningful
               conversations, personalized recommendations, and mood-based food
@@ -217,8 +200,8 @@ const Project4 = () => {
         id="approachp2"
         className="flex flex-col gap-3 pt-12 px-4 text-060709 bg-[#ffffff] xl:min-h-fit md:px-14 lg:px-24 2xl:px-32 pb-10"
       >
-        <p className="text-[#FF6B35] text-2xl">Research</p>
-        <p>
+        <p className="text-[#FF6B35] text-2xl font-semibold">Research</p>
+        <p className="text-xl">
           Current food apps are built to satisfy hunger, not curiosity or the
           mood. They lack a human element, offering endless lists, ratings, and
           filters but no way to properly connect with real people who understand
@@ -242,7 +225,7 @@ const Project4 = () => {
               </tr>
             </thead>
 
-            <tbody class="bg-white">
+            <tbody class="bg-white text-xl">
               <tr>
                 <td class="border border-gray-300 px-3 py-3">Zomato</td>
                 <td class="border border-gray-300 px-3 py-3">
@@ -310,8 +293,10 @@ const Project4 = () => {
         </div>
         <div className="flex flex-col gap-8 mt-12">
           <div className="flex flex-col gap-3">
-            <p className="text-[#FF6B35] text-2xl">Key Insights</p>
-            <p>
+            <p className="text-[#FF6B35] text-2xl font-semibold">
+              Key Insights
+            </p>
+            <p className="text-xl">
               None of these apps allow users to talk to real food lovers based
               on mood, vibe, or social comfort. Crave introduces a
               conversation-first approach, turning food discovery into a shared
@@ -319,8 +304,10 @@ const Project4 = () => {
             </p>
           </div>
           <div className="flex flex-col gap-3">
-            <p className="text-[#FF6B35] text-2xl">Personas & User Needs</p>
-            <p>
+            <p className="text-[#FF6B35] text-2xl font-semibold">
+              Personas & User Needs
+            </p>
+            <p className="text-xl">
               To design with empathy and clarity, I created two personas based
               on real-world behaviors and gaps observed during research. Each
               represents a distinct use case that Crave solves
@@ -340,7 +327,7 @@ const Project4 = () => {
                 src={polaroidArjun}
                 alt="polaroid of arjun"
               />
-              <div className="text-sm text-gray-800 space-y-1">
+              <div className="text-md text-gray-800 space-y-1">
                 <p>
                   <span className="font-semibold">Age:</span> 35
                 </p>
@@ -366,7 +353,7 @@ const Project4 = () => {
                 <span className="text-5xl">❝</span>
                 Goals
               </h3>
-              <ul className="list-disc list-inside text-sm text-gray-800 space-y-2 ml-5">
+              <ul className="list-disc text-md text-gray-800 space-y-2 ml-5 pl-5">
                 <li>Quickly find great local places when in a new city</li>
                 <li>
                   Talk to someone who knows the food scene so as to not depend
@@ -380,7 +367,7 @@ const Project4 = () => {
                 <span className="text-5xl">❝</span>
                 Frustrations
               </h3>
-              <ul className="list-disc list-inside text-sm text-gray-800 space-y-2 ml-5">
+              <ul className="list-disc text-md text-gray-800 space-y-2 ml-5 pl-5">
                 <li>Feels overwhelmed by too many options with no contex</li>
                 <li>Doesn’t trust app reviews for hidden gems</li>
                 <li>
@@ -396,7 +383,7 @@ const Project4 = () => {
                 src={polaroidRhea}
                 alt="polaroid of Rhea"
               />
-              <div className="text-sm text-gray-800 space-y-1">
+              <div className="text-md text-gray-800 space-y-1">
                 <p>
                   <span className="font-semibold">Age:</span> 24
                 </p>
@@ -420,7 +407,7 @@ const Project4 = () => {
                 <span className="text-5xl">❝</span>
                 Goals
               </h3>
-              <ul className="list-disc list-inside text-sm text-gray-800 space-y-2 ml-5">
+              <ul className="list-disc text-md text-gray-800 space-y-2 ml-5 pl-5">
                 <li>Discover unique, mood-based food spots</li>
                 <li>Talk to someone who gets the vibe before committing</li>
                 <li>
@@ -433,7 +420,7 @@ const Project4 = () => {
                 <span className="text-5xl">❝</span>
                 Frustrations
               </h3>
-              <ul className="list-disc list-inside text-sm text-gray-800 space-y-2 ml-5">
+              <ul className="list-disc text-md   text-gray-800 space-y-2 ml-5 pl-5">
                 <li>Too many generic suggestions on food apps</li>
                 <li>Hates scrolling endlessly through reviews</li>
                 <li>
@@ -452,7 +439,7 @@ const Project4 = () => {
                 Primary Goals
               </h3>
 
-              <ul className="list-disc list-inside  text-gray-900 space-y-4 text-md">
+              <ul className="list-disc  text-gray-900 space-y-4 text-lg ml-5 pl-5">
                 <li>
                   <span className="font-semibold">
                     Facilitate mood-based food discovery:
@@ -493,7 +480,7 @@ const Project4 = () => {
                 Success Metrics
               </h3>
 
-              <ul className="list-disc list-inside  text-gray-900 space-y-4 text-md">
+              <ul className="list-disc  text-gray-900 space-y-4 text-lg ml-5 pl-5">
                 <li>
                   <span className="font-semibold">80%</span> of users find a
                   recommendation within{" "}
@@ -545,15 +532,17 @@ const Project4 = () => {
         className="flex flex-col px-24 bg-[#FFFFFF] py-8"
       >
         <div className="flex flex-col gap-3">
-          <p className="text-[#FF6B35] text-2xl">UI (Visual Design)</p>
-          <p>
+          <p className="text-[#FF6B35] text-2xl font-semibold">
+            UI (Visual Design)
+          </p>
+          <p className="text-xl">
             The visual identity of Crave began with the logo: a clean, modern
             wordmark that feels as vibrant and human as the app's purpose. I
             chose orange as the primary brand color to evoke energy, warmth, and
             appetite, supported by subtle accents to keep the interface lively
             yet approachable.
           </p>
-          <p>
+          <p className="text-xl">
             From typography to screen layouts, every visual decision focused on
             maintaining a playful yet polished tone. The interface was designed
             to guide users intuitively, with friendly illustrations, smooth
@@ -617,8 +606,8 @@ const Project4 = () => {
           </div>
         </div>
         <div className="flex flex-col gap-6 mt-12">
-          <p className="text-[#FF6B35] text-2xl">User Testing</p>
-          <p>
+          <p className="text-[#FF6B35] text-2xl font-semibold">User Testing</p>
+          <p className="text-xl">
             To evaluate the usability and relevance of Crave, I conducted a
             moderated user testing round with 5 participants. Participants were
             asked to navigate the prototype and respond to a feedback form
@@ -638,9 +627,11 @@ const Project4 = () => {
           </div>
         </div>
       </section>
-      <div className="flex flex-col gap-6 px-4 mt-2 py-8 bg-[#FFF9EF9E] xl:min-h-fit md:px-14 lg:px-24 2xl:px-32 sm:px-8">
-        <p className="text-[#FF6B35] text-2xl">Results and Impact</p>
-        <ul class="list-disc space-y-3 pl-5 text-gray-800">
+      <div className="flex flex-col gap-6 px-24 mt-2 py-8 bg-[#FFF9EF9E]">
+        <p className="text-[#FF6B35] text-2xl font-semibold">
+          Results and Impact
+        </p>
+        <ul class="list-disc space-y-3 pl-5 text-gray-800 text-lg">
           <li>
             <span class="font-semibold">91.7%</span> of users said the app felt
             intuitive and easy to use.
@@ -671,6 +662,56 @@ const Project4 = () => {
             the next phase.
           </li>
         </ul>
+      </div>
+      <div className="flex px-24 mt-2 py-8 gap-8">
+        <div className="flex flex-col gap-4 flex-1">
+          <p className="text-[#FF6B35] text-2xl font-semibold">Reflections</p>
+          <p className="text-xl">
+            Building Crave was about designing a food discovery app that was
+            about trust, human connection, and meaningful interactions around
+            food. Throughout the process, I learned that when your product
+            centers around people, there’s more to the app after the screens and
+            buttons.
+          </p>
+          <p className="text-xl">
+            From persona building to prototype testing, I was constantly
+            challenged to balance user delight with functional clarity. What
+            started as a fun idea wondering, “what if you could eat with someone
+            who gets you?” turned into a system of micro-decisions around
+            pricing models, user flows, onboarding tone, and boundaries. The
+            project reminded me that not every UX decision has a clean answer,
+            but every user feedback is a clue. Sometimes the answers lie in
+            what’s unsaid, like the hesitation behind not pressing “Hire
+          </p>
+          <p className="text-[#FF6B35] text-2xl font-semibold">Takeaway</p>
+          <ul className="list-disc  text-gray-900 space-y-4 text-lg ml-5 pl-5">
+            <li>
+              <span className="font-semibold">Clarity beats cleverness:</span>
+              In pricing, CTAs, and onboarding, being clear with value and
+              action built more trust than being witty or “cool.”
+            </li>
+            <li>
+              <span className="font-semibold">
+                Testing can reveal the unexpected:
+              </span>
+              Some users cared more about the foodie's personality than the
+              dish. That insight shaped how profile tags and bios were
+              prioritized.
+            </li>
+            <li>
+              <span className="font-semibold">Constraints made it better:</span>
+              Working within scope (e.g., skipping foodie registration in phase
+              1) helped streamline and polish what mattered most: the core user
+              journey.
+            </li>
+          </ul>
+          <div class="font-[Convergence] px-5 py-2 bg-black rounded-3xl text-white flex items-center gap-2 cursor-pointer text-lg w-fit">
+            Prototype <span class="text-xl"> →</span>
+          </div>
+        </div>
+        <div className="flex-1 flex items-center justify-center">
+          <img src={EndPhone} alt="end phone" className="w-full h-auto" />
+        </div>
       </div>
     </div>
   );
